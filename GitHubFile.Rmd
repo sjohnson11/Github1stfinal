@@ -1,0 +1,49 @@
+---
+title: "GitHub Project 9/14"
+author: "Sam Johnson"
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Some commands to use to get a high level picture of the data include the following.
+* dim () (dimensions of the dataset)
+* nrow() (number of rows)
+* ncol() (number of columns)
+* str() (information about variable types)
+
+# Executing the dim command
+
+```{r}
+dim(mtcars)
+```
+
+#ncol
+
+```{r}
+ncol(mtcars)
+```
+
+# nrow
+
+```{r}
+nrow(mtcars)
+```
+
+# str
+
+```{r eval=FALSE}
+str(mtcars)
+```
+
+# names of variables
+
+```{r}
+names(mtcars)
+
+```
+
+
